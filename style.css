@@ -60,7 +60,7 @@ nav ul li a:hover {
 }
 
 
-#profile {
+#profile a {
     font-weight: 500;
     text-decoration: underline;
     font-size: 28px;
@@ -250,7 +250,3 @@ footer p {
     margin: 0;
     margin-top: 16px;
 }
-
-
-
-
