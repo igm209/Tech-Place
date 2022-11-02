@@ -62,9 +62,18 @@ nav ul li img {
     display: grid;
     grid-template-columns: 300px 700px 700px;
     grid-template-rows: 340px 340px;
-    row-gap: 30px;
+    row-gap: 20px;
     column-gap: 40px;
     margin-left: 50px;
+    margin-top: 10px;
+}
+
+.container h1 {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 28px;
+    font-family: Roboto;
+    font-weight: 400;
 }
 
 #home-profile {
@@ -97,6 +106,43 @@ nav ul li img {
     font-weight: 100;
     text-align: center;
     margin: 0;
+}
+
+#tech-tranding {
+    border: 5px solid #fff;
+    background-color: #000;
+    border-radius: 24px;
+
+}
+
+#game-tranding {
+    border: 5px solid #fff;
+    background-color: #000;
+    border-radius: 24px;
+
+}
+
+#soft-tranding {
+    border: 5px solid #fff;
+    background-color: #000;
+    border-radius: 24px;
+
+}
+
+#hard-tranding {
+    border: 5px solid #fff;
+    background-color: #000;
+    border-radius: 24px;
+
+}
+
+footer {
+    color: #fff;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 100;
+    text-align: center;
+
 }
 
 
