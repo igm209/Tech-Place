@@ -127,27 +127,9 @@ nav ul li img {
     margin: 0;
 }
 
-#tech-tranding {
+.cont {
     border: 5px solid #fff;
-    background-color: #000;
-    border-radius: 24px;
-}
-
-#game-tranding {
-    border: 5px solid #fff;
-    background-color: #000;
-    border-radius: 24px;
-}
-
-#soft-tranding {
-    border: 5px solid #fff;
-    background-color: #000;
-    border-radius: 24px;
-}
-
-#hard-tranding {
-    border: 5px solid #fff;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
     border-radius: 24px;
 }
 
@@ -225,7 +207,6 @@ nav ul li img {
     font-weight: 300;
     text-align: left;
     margin: 0;
-    text-decoration: underline;
 }
 
 #tranding p {
