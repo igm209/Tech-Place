@@ -1,5 +1,5 @@
 body {
-    background-image: url('/Assests/background-2.jpg');
+    background-image: url('/Assests/background-5.jpg');
     font-family: Roboto;
 }
 
@@ -74,6 +74,142 @@ nav ul li img {
     border: 2px solid #000;
     border-radius: 50px;
 }
+
+section {
+    display: flex;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#main {
+    width: 1140px;
+    border: 5px solid #fff;
+    border-radius: 24px;
+    background-color: rgba(0, 0, 0, 0.85);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#secondary {
+    width: 315px;
+    height: 730px;
+    border: 5px solid #fff;
+    border-radius: 24px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 10px;
+    margin-top: 0px;
+}
+
+#secondary h2 {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 18px;
+    margin-left: 12px;
+
+}
+
+#sidebar {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(9, 52px);
+    margin: 0;
+    margin-top: 5px;
+    row-gap: 22px;
+}
+
+#text h3 {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 8px;
+    margin-left: 22px;
+}
+
+#text p {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 22px;
+}
+
+#main-section {
+    display: grid;
+    grid-template-columns: 110px 1070px;
+    grid-template-rows: repeat(10, 80px);
+    margin: 18px;
+    row-gap: 35px;
+    column-gap: 5px;
+}
+
+#avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin: 0;
+    margin-left: 5px;
+}
+
+#article-text h2 {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 300;
+    margin: 0;
+}
+
+#article-text h2 a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+#article-text h2 a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#article-text h2 a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#article-text p {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     color: #fff;
