@@ -74,3 +74,138 @@ nav ul li img {
     border: 2px solid #000;
     border-radius: 50px;
 }
+
+section {
+    display: flex;
+}
+
+#post {
+    display: block;
+    width: 1400px;
+    border: 5px solid #fff;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+#post img {
+    margin-left: 10px;
+}
+
+#post h1 {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0;
+    margin-left: 15px;
+}
+
+#post p {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0;
+    margin-left: 50px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 960px;
+    padding: 17px 20px;
+    background-color: #494949;
+    border: #494949;
+    border-radius: 50px;
+    color: #fff;
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 45px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+button {
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #000;
+    border: 2px solid #fff;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 26px;
+    padding: 15px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+button:hover span {
+   padding-right: 25px;
+   color: #000;
+}
+
+button:hover {
+    background-color: #fff;
+}
+ 
+button:hover span:after {
+   opacity: 1;
+   right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    color: #fff;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 100;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    margin-top: 16px;
+}
