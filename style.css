@@ -209,6 +209,10 @@ nav ul li img {
     margin: 0;
 }
 
+#tranding a {
+    text-decoration: none;
+}
+
 #tranding p {
     color: #fff;
     font-size: 16px;
