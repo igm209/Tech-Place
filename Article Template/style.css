@@ -86,7 +86,7 @@ section {
     border-radius: 30px;
     background-color: rgba(0, 0, 0, 0.85);
     padding: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 20px;
     align-items: center;
 }
@@ -118,7 +118,7 @@ section {
     align-items: center;
 }
 
-input {
+#post input {
     width: 960px;
     padding: 17px 20px;
     background-color: #494949;
@@ -241,28 +241,52 @@ button:hover span:after {
     margin-top: 45px;
 }
 
-#profile {
-    
+#profile-1 {
+    display: flex;
+    width: 500px;
+    height: 770px;
+    border: 5px solid #fff;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.85);
+    margin-top: 10px;
+    margin-left: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row
 }
 
+#profile-1 img {
+    width: 350px;
+    height: 350px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-top: 15px;
+}
 
+#stats {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: repeat(5, 40px);
+    row-gap: 10px;
+    column-gap: 16px;
+    margin: 0;
+    margin-left: 5px;
+    margin-top: 0px;
+}
 
+#stats h2 {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
 
+#profile-1 button {
+    margin-bottom: 20px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 footer {
     color: #fff;
