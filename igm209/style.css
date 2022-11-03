@@ -1,5 +1,5 @@
 body {
-    background-image: url('/Assests/background-2.jpg');
+    background-image: url('/Assests/background-7.png');
     font-family: Roboto;
 }
 
@@ -137,7 +137,7 @@ section {
 #details {
     display: grid;
     grid-template-columns: 1250px;
-    grid-template-rows: 280px 400px;
+    grid-template-rows: 280px 1500px;
     margin-left: 20px;
     align-content:flex-start;
 }
@@ -166,20 +166,78 @@ section {
     margin-top: 20px;
 }
 
+#stats h2 {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 20px;
+}
 
+#stats p {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 40px;
+}
 
+#comments {
+    display: grid;
+    grid-template-columns: 20px 1000px 150px;
+    grid-template-rows: repeat(15, 86px);
+    row-gap: 10px;
+    margin: 18px;
+}
 
+#article-text h2 {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 10px;
+}
 
+#article-text h2 a:link {
+    color: #fff;
+    text-decoration: none;
+}
 
+#article-text h2 a:visited {
+    color: #fff;
+    text-decoration: none;
+}
 
+#article-text h2 a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
 
+#article-text p {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 10px;
+}
 
-
-
-
-
-
-
+#date h3 {
+    color: rgb(167, 167, 167);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 35px;
+    text-align: center;
+}
 
 footer {
     color: #fff;
