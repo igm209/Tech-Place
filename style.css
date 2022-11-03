@@ -209,8 +209,19 @@ nav ul li img {
     margin: 0;
 }
 
-#tranding a {
+#tranding a:link {
+    color: #fff;
     text-decoration: none;
+}
+
+#tranding a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#tranding a:hover {
+    color: #fff;
+    text-decoration: underline;
 }
 
 #tranding p {

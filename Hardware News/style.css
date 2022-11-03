@@ -130,6 +130,31 @@ section {
     margin-left: 22px;
 }
 
+#text h3 {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 8px;
+    margin-left: 22px;
+}
+
+#text a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+#text a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#text a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
 #text p {
     color: #fff;
     font-family: Roboto;
