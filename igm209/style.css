@@ -134,6 +134,38 @@ section {
     margin: 0;
 }
 
+#details {
+    display: grid;
+    grid-template-columns: 1250px;
+    grid-template-rows: 280px 400px;
+    margin-left: 20px;
+    align-content:flex-start;
+}
+
+#statistics {
+    display: grid;
+    grid-template-columns: repeat(4, 280px);
+    grid-template-rows: 250px ;
+    justify-content: space-between;
+    column-gap: 40px;
+    height: 250px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+#stats {
+    border: 5px solid #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 40px;
+}
+
+#posts {
+    border: 5px solid #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
 
 
 
