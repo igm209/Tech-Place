@@ -12,13 +12,13 @@ body {
     padding: 8px;
 }
 
-nav {
+#navbar-1 {
     border: 3px solid #000;
     background-color: #fff;
     border-radius: 40px;
 }
 
-nav ul {
+#navbar-1 ul {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
@@ -26,11 +26,11 @@ nav ul {
     padding: 0;
 }
 
-nav ul li {
+#navbar-1 ul li {
     padding: 8px 0px;
 }
 
-nav ul li a:link {
+#navbar-1 ul li a:link {
     text-decoration: none;
     color: #000;
     font-size: 28px;
@@ -38,7 +38,7 @@ nav ul li a:link {
     align-items: center;
 }
 
-nav ul li a:visited {
+#navbar-1 ul li a:visited {
     text-decoration: none;
     color: #000;
     font-size: 28px;
@@ -46,7 +46,7 @@ nav ul li a:visited {
     align-items: center;
 }
 
-nav ul li a:hover {
+#navbar-1 ul li a:hover {
     text-decoration: underline;
     color: #000;
     font-size: 28px;
@@ -54,19 +54,19 @@ nav ul li a:hover {
     align-items: center;
 }
 
-#active a {
+#navbar-1 #active a {
     font-weight: 400;
     text-decoration: underline;
 }
 
 
-#profile a {
+#navbar-1 #profile a {
     font-weight: 500;
     text-decoration: underline;
     font-size: 28px;
 }
 
-nav ul li img {
+#navbar-1 ul li img {
     width: 50px;
     height: 50px;
     display: block;
@@ -74,6 +74,103 @@ nav ul li img {
     border: 2px solid #000;
     border-radius: 50px;
 }
+
+section {
+    display: flex;
+}
+
+.container {
+    width: 1400px;
+    border: 3px solid #fff;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+#navbar-2 ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+}
+
+#navbar-2 ul li {
+    padding: 8px 0px;
+}
+
+#navbar-2 ul li a:link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+    align-items: center;
+}
+
+#navbar-2 ul li a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+    align-items: center;
+}
+
+#navbar-2 ul li a:hover {
+    text-decoration: underline;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+    align-items: center;
+}
+
+#navbar-2 #active-1 a {
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.container-2 {
+    width: 430px;
+    border: 3px solid #fff;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+#topics {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     color: #fff;
